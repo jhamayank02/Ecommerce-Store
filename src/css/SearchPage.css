@@ -1,0 +1,14 @@
+.search-page{
+    margin-top: 64px;
+}
+
+.not-found{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.not-found span{
+    color: #2504d1;
+}

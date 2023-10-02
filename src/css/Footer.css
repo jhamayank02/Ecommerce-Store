@@ -1,0 +1,44 @@
+.footer{
+    background-color: black;
+    color: white;
+    margin-top: 12px;
+}
+
+.footer .section{
+    display: flex;
+    justify-content: space-around;
+    padding: 18px 10px;
+}
+
+.footer .vertical-separator{
+    width: 1px;
+    background-color: #181818;
+}
+
+.footer .horizontal-separator{
+    height: 1px;
+    background-color: #181818;
+    margin: 0 26px;
+}
+
+.footer .footer-navigation, .footer .categories, .footer .address{
+    list-style: none;
+    line-height: 1.9rem;
+    width: 10%;
+}
+
+.footer .footer-navigation li a, .footer .categories li a, .footer .address, .footer .section{
+    color: #474747;
+}
+
+.footer .footer-navigation li a:hover, .footer .categories li a:hover{
+    text-decoration: underline;
+    color: #b3b3b3;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px){
+    .footer .section:first-child{
+        display: none;
+    }
+}

@@ -1,0 +1,25 @@
+.view-similar-page{
+    margin-top: 50px;
+}
+
+.view-similar-page .title{
+    font-size: 17px;
+    line-height: 1.4rem;
+}
+
+.view-similar-page .price-details{
+    margin-top: 0;
+}
+
+.view-similar-page .features{
+    margin-top: 3px;
+}
+
+@media screen and (max-width: 744px) {
+    .view-similar-page .features{
+        display: none;
+    }
+    .view-similar-page .price-details{
+        margin-top: 7px;
+    }
+}

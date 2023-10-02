@@ -1,0 +1,23 @@
+.signup-page form{
+    /* width: 20%; */
+    width: 90%;
+    border: 1px solid #d2cfcf;
+    margin: auto;
+    padding: 13px 13px;
+    border-radius: 4px;
+}
+
+.signup-page form div{
+    display: flex;
+    flex-direction: column;
+    margin: 7px 0;
+}
+
+.signup-page form div label{
+    margin: 6px 0;
+}
+
+.signup-page .btn{
+    margin-top: 20px;
+    margin-right: 7px;
+}

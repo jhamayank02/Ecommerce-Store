@@ -1,0 +1,16 @@
+.btn{
+    padding: 7px 25px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid black;
+}
+
+.btn-secondary{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.btn-secondary:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
