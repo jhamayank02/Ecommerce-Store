@@ -6,7 +6,7 @@ import Home from './components/Home';
 import Login from './components/Login';
 import SignUp from './components/SignUp';
 import Cart from './components/Cart';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import ProductPage from './components/ProductPage';
 import NoPage from './UI/NoPage';
 import OrderForm from './components/OrderForm';
@@ -97,7 +97,7 @@ function App() {
           {orderFormIsShown && <OrderForm hideOrderForm={hideOrderForm} />}
           {logoutModalIsShown && <Logout hideLogoutModal={hideLogoutModal} />}
 
-      <BrowserRouter>
+      <HashRouter>
       <Header showLoginModal={showLoginModal} showCartModal={showCartModal} hasLoggedIn={hasLoggedIn} logoutHandler={logoutHandler} showLogoutModal={showLogoutModal}/>
       <Routes>
         <Route exact path="/" element={<Home />}></Route>
@@ -106,7 +106,7 @@ function App() {
         <Route exact path="/view-similar" element={<ViewSimilarProducts />}></Route>
         <Route exact path="*" element={<NoPage />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
     </div>
       <Footer />
     </>
