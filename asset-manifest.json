@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Ecommerce-Store/static/css/main.16deaed0.css",
-    "main.js": "/Ecommerce-Store/static/js/main.976b2c60.js",
+    "main.css": "/Ecommerce-Store/static/css/main.ed1a9590.css",
+    "main.js": "/Ecommerce-Store/static/js/main.9ca340d8.js",
     "static/js/787.c565ce82.chunk.js": "/Ecommerce-Store/static/js/787.c565ce82.chunk.js",
     "static/media/c3.jpg": "/Ecommerce-Store/static/media/c3.2d38603c8a1c6d01345a.jpg",
     "static/media/c2.jpg": "/Ecommerce-Store/static/media/c2.9cd1a73b3b9780e1a246.jpg",
@@ -22,12 +22,12 @@
     "static/media/whirlpool.webp": "/Ecommerce-Store/static/media/whirlpool.451b287a8670fc7be31e.webp",
     "static/media/voltas.webp": "/Ecommerce-Store/static/media/voltas.d2964c9fa52fc88e4b24.webp",
     "index.html": "/Ecommerce-Store/index.html",
-    "main.16deaed0.css.map": "/Ecommerce-Store/static/css/main.16deaed0.css.map",
-    "main.976b2c60.js.map": "/Ecommerce-Store/static/js/main.976b2c60.js.map",
+    "main.ed1a9590.css.map": "/Ecommerce-Store/static/css/main.ed1a9590.css.map",
+    "main.9ca340d8.js.map": "/Ecommerce-Store/static/js/main.9ca340d8.js.map",
     "787.c565ce82.chunk.js.map": "/Ecommerce-Store/static/js/787.c565ce82.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16deaed0.css",
-    "static/js/main.976b2c60.js"
+    "static/css/main.ed1a9590.css",
+    "static/js/main.9ca340d8.js"
   ]
 }
