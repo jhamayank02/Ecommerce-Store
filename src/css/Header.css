@@ -1,6 +1,5 @@
 nav{
     display: flex;
-    /* position: relative; */
     position: fixed;
     top: 0;
     left: -34px;
@@ -142,18 +141,6 @@ nav{
         text-align: center;
     }
 
-    /* .responsive-nav .btn{
-        position: absolute;
-        right: -11px;
-        background-color: white;
-        color: #7575a1;
-        font-size: 14px;
-        padding: 2px 8px;
-        border: 1px solid #b3b3b3;
-        border-radius: 3px;
-        box-shadow: 1px 1px -1px red;
-    } */
-
     .responsive-nav .res-search-box .res-search-btn{
         margin: 0 auto;
         margin-top: 6px;
@@ -169,10 +156,4 @@ nav{
         width: fit-content;
         font-weight: 400;
     }
-
-    /* .responsive-nav .res-search-box .res-search-btn:hover{
-        background-color: rgb(0, 0, 0);
-        color: #7575a1;
-        cursor: pointer;
-    } */
   }

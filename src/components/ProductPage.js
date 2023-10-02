@@ -1,8 +1,7 @@
-import './ProductPage.css';
-// import img from '../assets/images/img3.jpg';
+import '../css/ProductPage.css';
 import NoPage from '../UI/NoPage';
-import PrimaryButton from './PrimaryButton';
-import SecondaryButton from './SecondaryButton';
+import PrimaryButton from '../UI/PrimaryButton';
+import SecondaryButton from '../UI/SecondaryButton';
 import { useLocation } from 'react-router-dom';
 import { useContext, useState } from 'react';
 import CartContext from '../context/CartContext';
@@ -11,7 +10,6 @@ function ProductPage(props) {
     const [addedToCart, setAddedToCart] = useState(false);
 
     const ctx = useContext(CartContext);
-    // console.log(ctx)
 
     const location = useLocation();
     const data = location.state;
@@ -84,13 +82,13 @@ function ProductPage(props) {
 
                 <div className='specification-list'>
                         {specification_keys.map((value, ind)=>{
-                            return <>
+                            return <div key={ind}>
                                 <li key={ind}>
                                     <div>{value}</div>
                                     <div>{specification_values[ind]}</div>
                                 </li>
                                 <div className='separator'></div>
-                            </>
+                            </div>
                         })}
                     </div>
             </div>

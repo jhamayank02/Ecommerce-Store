@@ -1,4 +1,4 @@
-import './SecondaryButton.css';
+import './css/SecondaryButton.css';
 
 function SecondaryButton(props) {
   return (

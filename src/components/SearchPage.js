@@ -45,8 +45,8 @@ const SearchPage = ()=>{
                 <p className="not-found">No results found for <span>"{searchTxt}"</span></p>
             }
 
-            {result.length > 0 && result.map((item)=>{
-                return <ProductCard data={item}></ProductCard>
+            {result.length > 0 && result.map((item, ind)=>{
+                return <ProductCard key={ind} data={item}></ProductCard>
             })}
         </div>
         </>

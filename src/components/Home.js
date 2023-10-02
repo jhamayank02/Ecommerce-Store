@@ -7,8 +7,6 @@ function Home() {
   return (
     <>
     <Carousel />
-
-    
     {DUMMY_DATA.map((item, ind)=>{
       return <ProductCarousel key={ind} data={item} />
     })}

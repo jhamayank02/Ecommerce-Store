@@ -1,7 +1,7 @@
-import './OrderForm.css';
-import Modal from './Modal';
-import PrimaryButton from './PrimaryButton';
-import SecondaryButton from './SecondaryButton';
+import '../css/OrderForm.css';
+import Modal from '../UI/Modal';
+import PrimaryButton from '../UI/PrimaryButton';
+import SecondaryButton from '../UI/SecondaryButton';
 import { useState, useContext } from 'react';
 import CartContext from '../context/CartContext';
 

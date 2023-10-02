@@ -1,7 +1,4 @@
 import '../css/Carousel.css';
-import c1 from '../assets/images/c1.jpg'
-import c2 from '../assets/images/c2.jpg'
-import c3 from '../assets/images/c3.jpg'
 import { useEffect } from 'react';
 
 function Carousel(){
@@ -34,7 +31,6 @@ function Carousel(){
 
   return (
     <div className='carousel'>
-        {/* <div id='slide'></div> */}
         <div id='c1'></div>
         <div id='c2'></div>
         <div id='c3'></div>

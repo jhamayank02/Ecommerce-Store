@@ -3,8 +3,6 @@ import ProductCard from "../UI/ProductCard";
 import '../css/ViewSimilarProducts.css'
 
 function ViewSimilarProducts() {
-
-    
     const location = useLocation();
     const data = location.state;
     

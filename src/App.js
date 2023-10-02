@@ -7,10 +7,10 @@ import Login from './components/Login';
 import SignUp from './components/SignUp';
 import Cart from './components/Cart';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ProductPage from './UI/ProductPage';
+import ProductPage from './components/ProductPage';
 import NoPage from './UI/NoPage';
-import OrderForm from './UI/OrderForm';
-import Logout from './UI/Logout';
+import OrderForm from './components/OrderForm';
+import Logout from './components/Logout';
 import SearchPage from './components/SearchPage';
 import ViewSimilarProducts from './components/ViewSimilarProducts';
 
@@ -107,8 +107,6 @@ function App() {
         <Route exact path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>
-
-      {/* <Home /> */}
     </div>
       <Footer />
     </>

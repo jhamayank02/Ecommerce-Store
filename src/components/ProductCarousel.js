@@ -1,6 +1,5 @@
 import { useRef, useState, useEffect } from 'react';
 import CategoryCard from '../UI/CategoryCard';
-import ProductCard from '../UI/ProductCard';
 import '../css/ProductCarousel.css';
 import { useNavigate } from 'react-router-dom';
 
@@ -9,7 +8,6 @@ function ProductCarousel(props) {
   const product_arr = Object.values(props.data)[0];
   const category = product_arr[0]['category'];
 
-  // eval('const ' + 'ProductCarouselRef+' + category);
   const ProductCarouselRef = useRef();
 
   const [prevBtnEnabled, setPrevBtnEnabled] = useState(false);

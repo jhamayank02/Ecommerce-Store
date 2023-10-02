@@ -3,6 +3,7 @@ const DUMMY_DATA = [
         'Electronics': [
             {
                 id: 1,
+                category: 'Electronics',
                 sub_category: 'Laptops',
                 product_name: 'HP Chromebook MediaTek Kompanio 500 - (4 GB/64 GB EMMC Storage/Chrome OS) 11A-NA0002MU Chromebook  (11.6 inch, Indigo Blue, 1.07 kg)',
                 description: 'With the HP Chromebook MT8183, studying at home becomes easy, fast, and convenient for students. This personal device features Buttons to quickly access Google Search, Drive, apps, etc. Also, it has the Voice-enabled Google Assistant for fast response, and it is easy to start.',
@@ -19,6 +20,7 @@ const DUMMY_DATA = [
             },
             {
                 id: 2,
+                category: 'Electronics',
                 sub_category: 'Laptops',
                 product_name: 'HP Intel Core i3 12th Gen 1215U - (8 GB/512 GB SSD/Windows 11 Home) 15s-fq5007TU Thin and Light Laptop  (15.6 Inch, Natural Silver, 1.69 kg, With MS Office)',
                 description: 'With this HP laptop, which is packed with amazing capabilities, you can find delight in beautiful graphics and easily multitask. The processing capacity of this laptop works in conjunction with the raw strength of the Intel processor and graphics to offer a learning environment that is adaptable and user-friendly. You can finish your tasks with this laptop\'s USB ports and integrated 4G LTE setup. For those who put in long hours of work day and night, this laptop provides a dependable workstation. Enjoy 1920 x 1080 resolution as well for clear visuals and images that give all of your digital content a distinct dimension. With the power of 2 million pixels, you can experience digital content in a mesmerising fashion.',
@@ -35,6 +37,7 @@ const DUMMY_DATA = [
             },
             {
                 id: 3,
+                category: 'Electronics',
                 sub_category: 'Laptops',
                 product_name: 'ASUS Vivobook 15 Core i3 11th Gen 1115G4 - (8 GB/256 GB SSD/Windows 11 Home) X515EA-EJ312W Thin and Light Laptop  (15.6 Inch, Transparent Silver, 1.80 kg)',
                 original_price: '44,990',
@@ -51,6 +54,7 @@ const DUMMY_DATA = [
             },
             {
                 id: 4,
+                category: 'Electronics',
                 sub_category: 'Laptops',
                 product_name: 'ASUS Vivobook Go 15 OLED (2023) Ryzen 5 Quad Core 7520U - (8 GB/512 GB SSD/Windows 11 Home) E1504FA-LK523WS Thin and Light Laptop  (15.6 Inch, Green Grey, 1.63 Kg, With MS Office)',
                 description: 'The superb Asus Vivobook Go 15 OLED laptop delivers a seamless user experience, a gorgeous design, and tonnes of amazing capabilities. You can carry out all of your professional tasks on the AMD Ryzen 7000-U Series CPU, 5500 MHz quick LDDR5, and PCIe 3.0 SSD storage of the Vivobook Go 15 OLED laptop. Owing to the laptop\'s ASUS SonicMaster and DTS Audio Processor, which both provide incredibly loud, high-quality sound, you can dance to your favourite music. The laptop\'s 180-degree lay-flat hinge, which is excellently built, enables effective participation and information sharing.',
@@ -67,6 +71,7 @@ const DUMMY_DATA = [
             },
             {
                 id: 5,
+                category: 'Electronics',
                 sub_category: 'Laptops',
                 product_name: 'ASUS TUF Gaming F15 with 90WHr Battery Core i5 11th Gen 11400H - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050/144 Hz/75 W) FX506HC-HN362W Gaming Laptop  (15.6 Inch, Graphite Black, 2.30 Kg)',
                 description: 'Bristling with high-refresh rate displays and competitive GPUs, ultra-durable TUF Gaming laptops deliver a reliable portable gaming experience to a wide audience of gamers.',
@@ -87,6 +92,7 @@ const DUMMY_DATA = [
     'Smartphones': [
             {
                 id: 6,
+                category: 'Smartphones',
                 sub_category: 'Smartphones',
                 product_name: 'MOTOROLA G32 (Mineral Gray, 128 GB)  (8 GB RAM)',
                 description: 'You can experience lag-free gaming, fluid multitasking, and stunning, stutter-free images with the Moto G32. With a mind-blowing 16.51 cm (6.5) FHD+ Ultra-wide display and a refresh rate of 90 Hz, this phone makes it possible to multitask while being entertained. Furthermore, with a Snapdragon 680 Octa-core processor and 8 GB of RAM, you can juggle brilliantly without the smartphone overheating while enjoying an amazing UI. Moreover, this phone has a 50 MP primary camera with an 8 MP ultra-wide lens, enabling you to capture breath-taking timeless beauty.',
@@ -101,6 +107,7 @@ const DUMMY_DATA = [
                 ]
             }, {
                 id: 7,
+                category: 'Smartphones',
                 sub_category: 'Smartphones',
                 product_name: 'SAMSUNG Galaxy F04 (Opal Green, 64 GB)  (4 GB RAM)',
                 description: 'With the stunning features of the Samsung Galaxy F04 smartphone, discover what it means to have a flawless user experience. This smartphone\'s astonishing 8 GB of RAM makes multitasking a snap. Additionally, the unique RAM Plus technology intelligently enhances your memory by using your storage as virtual memory, enabling you to conveniently play graphically demanding games. The MTK P35 CPU in this phone also makes it simple for you to switch between programmes and sustain productivity. On this phone\'s amazing 16.55cm (6.5) HD+ display, you can enjoy your favourite content with theater-like quality and experience the characters spring to life in every frame.',
@@ -114,6 +121,7 @@ const DUMMY_DATA = [
                 ]
             }, {
                 id: 8,
+                category: 'Smartphones',
                 sub_category: 'Smartphones',
                 product_name: 'OnePlus Nord CE 2 Lite 5G (Blue Tide, 128 GB)  (6 GB RAM)',
                 description: 'AI scene enhancement, Dual-View Video, HDR, Night Portrait, Panorama Mode, Retouch Filters, 1080p video at 30 fps, SLO-MO: 720p video at 120 fps, TIME-LAPSE: 1080p video at 30 fps, Video editor, Face unlock, Screen flash, HDR, NIGHT, PORTRAIT, TIME-LAPSE, Retouch, Filters',
@@ -127,6 +135,7 @@ const DUMMY_DATA = [
                 ]
             }, {
                 id: 9,
+                category: 'Smartphones',
                 sub_category: 'Smartphones',
                 product_name: 'Infinix SMART 7 (Azure Blue, 64 GB)  (4 GB RAM)',
                 description: 'You can take advantage of a wide range of outstanding features that complement your lifestyle with the amazing Infinix SMART 7 phone. You can show off your flair everywhere you go with this phone, which has a sizable 6000 mAh battery, up to 7 GB of RAM, and a 16.76 cm (6.6) HD+ Display that makes every image come to life. Also, you can enhance your online appearance with the SMART 7\'s 13 MP Dual Camera, which is crisp and clear. The powerful Dual Flash provides you with the optimal lighting to spotlight your subject while it is dark outside.',
@@ -141,6 +150,7 @@ const DUMMY_DATA = [
                 ]
             }, {
                 id: 10,
+                category: 'Smartphones',
                 sub_category: 'Smartphones',
                 product_name: 'MOTOROLA e13 (Aurora Green, 64 GB)  (4 GB RAM)',
                 description: 'With the all-new moto e13, you can enjoy advanced capabilities with up to 4 GB of RAM and cruise through a hectic day with ease. Store everything you love and more with 64 GB of storage that’s expandable up to 1 TB. Equipped with a powerful UNISOC T606 Processor, you’ll get a performance like never before. Scroll, stream, search, and socialise with a 5000mAh battery that lets you watch videos for up to 23 hours, listen to music for up to 225 hours and browse your favourite social media platforms for up to 21 hours. Additionally, with a premium design and a sleek body, it’s sure to make some heads turn. Take your theatre to-go when you have a 16.5 cm (6.5) ultra-wide screen IPS LCD screen and Dolby Atmos that gives you unmatched entertainment.',
@@ -160,6 +170,7 @@ const DUMMY_DATA = [
         'Home appliances': [
             {
                 id: 11,
+                category: 'Home appliances',
                 sub_category: 'Home Appliances',
                 product_name: 'Whirlpool 184 L Direct Cool Single Door 2 Star Refrigerator  (Sapphire, 205 WDE PRM 2S SAPPHIRE BLOOM-Z)',
                 description: 'You can effortlessly keep your fruits, vegetables, and leftover food items fresh for a long period of time with the Whirlpool Refrigerator. The capillary, which transfers refrigerant from the compressor to the freezer, is enclosed in cold gas from all sides, owing to its Insulated Capillary technology. This way, this refrigerator ensures enhanced compressor performance, rapid chilling, and up to nine hours of cooling retention. Moreover, this refrigerator has a chiller with storage for milk packets and cans to preserve them at the right chilling temperature.',
@@ -174,6 +185,7 @@ const DUMMY_DATA = [
                 ]   
             }, {
                 id: 12,
+                category: 'Home appliances',
                 sub_category: 'Home Appliances',
                 product_name: 'MOTOROLA EnvisionX 165 cm (65 inch) QLED Ultra HD (4K) Smart Google TV QuantumGlow Technology, Dolby Vision & Dolby Atmos (2023 Range)  (65UHDGQMWS5Q)',
                 description: 'You can enjoy crystal-clear and vibrant colours on this Motorola QLED TV. The QuantumGlow tech ensures you with bright and captivating visuals. The Dolby Vision and bezel-less design of this TV allow you to engage in your favourite entertainment, be it watching movies or playing games. With Dolby Atmos technology you can enjoy different audio modes at top-quality on its 20 W speakers. It has an in-built graphics unit that ensures you with fast and smooth processing to make multi-tasking more easy and effective. Thanks to the Android 11 featured in this Google TV, you can use your voice to command and access this TV to view your favourite content.',
@@ -189,6 +201,7 @@ const DUMMY_DATA = [
                 ]
             }, {
                 id: 13,
+                category: 'Home appliances',
                 sub_category: 'Home Appliances',
                 product_name: 'MarQ by Flipkart 7 kg 5 Star rating Semi Automatic Top Load Washing Machine Blue, White  (MQSA70H5M)',
                 description: 'You can quickly and conveniently wash your clothes with the help of the MarQ by Flipkart 7 kg MQSA70H5M Semi-automatic Top-loading Washing Machine. Built using high-quality ABS material, this washing machine ensures enduring performance. Powered by a robust motor that offers high speeds of up to 1350 RPM with pulsating cycles, this washing machine delivers optimal performance. Moreover, thanks to its sophisticated wash programmes, this washing machine enables you to effortlessly personalise your wash programmes based on the load sizes.',
@@ -203,6 +216,7 @@ const DUMMY_DATA = [
                 ]
             }, {
                 id: 14,
+                category: 'Home appliances',
                 sub_category: 'Home Appliances',
                 product_name: 'Panasonic SC-HT550GW-K 150 W Bluetooth Home Theatre  (Black, 5.1 Channel)',
                 description: 'Panasonic SC-HT550GW-K 150 W Bluetooth Home Theatre  (Black, 5.1 Channel)',
@@ -217,6 +231,7 @@ const DUMMY_DATA = [
                 ]
             }, {
                 id: 15,
+                category: 'Home appliances',
                 sub_category: 'Home Appliances',
                 product_name: 'Voltas 2023 Model 1.5 Ton 3 Star Split Inverter AC - White  (183V Vectra Pride(4503445), Copper Condenser)',
                 description: ' Variable speed compressor which adjusts power depending on heat load. Convertible / adjustable with 4 cooling modes through remote control to operate in different tonnages for different cooling needs (20% to 120% capacity)',

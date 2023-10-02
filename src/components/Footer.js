@@ -27,7 +27,7 @@ const Footer = ()=>{
             <div className='horizontal-separator'></div>
 
             <div className="section">
-                MCart || All rights reserved &copy; 2023-2024
+                MCart || Some rights reserved &copy; 2023-2024
             </div>
 
         </div>

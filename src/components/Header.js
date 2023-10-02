@@ -19,7 +19,6 @@ const Header = (props) => {
 
     const searchHandler = () => {
         if (searchText !== '') {
-            console.log("sent " + searchText)
             navigate('/search', { state: searchText });
         }
     }
@@ -69,10 +68,8 @@ const Header = (props) => {
                     <div className="res-search-box">
                         <input size="25" name="search" placeholder="Search for products, brands and more" value={searchText} onChange={searchTextHandler}></input>
                         <div className='res-search-btn' onClick={(e) => { searchHandler(); toggleMenu(); }}>Search</div>
-                        {/* <PrimaryButton btnText="Search" onClick={(e) => searchHandler()} /> */}
                     </div>
                 </div>
-                {/* </div> */}
             </nav>
 
 

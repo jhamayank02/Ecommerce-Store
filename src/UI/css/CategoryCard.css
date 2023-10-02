@@ -1,13 +1,8 @@
 .category-card{
-    /* width: 250px; */
-    /* height: 250px; */
     border: 1px solid #efeeee;
-    /* box-shadow: 2px 2px 7px lightgrey; */
-    /* display: flex; */
     border-radius: 3px;
     align-items: center;
     display: inline-block;
-    /* margin: auto; */
     text-align: center;
     margin: 10px 10px;
     padding: 10px 10px;
@@ -19,20 +14,9 @@
 }
 
 .category-card:hover{
-    /* scale: 1.1; */
     border: 1px solid red;
     transition: border linear 0.5s;
-    /* animation-name: borderAnimation;
-    animation-duration: 2s;
-    animation-iteration-count: infinite; */
 }
-
-/* @keyframes borderAnimation {
-    0%   {border-width: 0px;border-top: 1px solid red; transition: border linear 0.5s;}
-    25%  {border-width: 100%; border-right: 1px solid red; transition: border linear 0.5s;}
-    50%  {border-bottom: 1px solid red; transition: border linear 0.5s;}
-    100% {border-left: 1px solid red; transition: border linear 0.5s;}
-  } */
 
 .category-card img{
     width: 220px;
@@ -44,7 +28,6 @@
 
 .category-card .title{
     font-size: 17px;
-    /* font-weight: 600; */
     color: #1c1c1c;
     margin: 7px 0;
 }
@@ -58,7 +41,6 @@
     background-color: #1f931d;
     border-radius: 12px;
     color: white;
-    /* font-weight: 600; */
     margin-right: 6px;
 }
 
@@ -68,7 +50,6 @@
 }
 
 .category-card .price-details .discounted-price{
-    /* font-weight: 600; */
     font-size: 17px;
 }
 

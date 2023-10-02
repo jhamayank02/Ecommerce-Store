@@ -1,5 +1,4 @@
-import './ProductCard.css';
-// import img from '../assets/images/img1.jpg';
+import './css/ProductCard.css';
 import { useNavigate } from 'react-router-dom';
 
 function ProductCard(props) {

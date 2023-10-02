@@ -1,5 +1,4 @@
 .product-carousel{
-    /* padding: 0px 14px; */
     text-align: center;
     position: relative;
 }
@@ -25,7 +24,6 @@
     font-size: 29px;
     color: white;
     background-color: black;
-    /* border: black; */
     border: 1px solid black;
     border-radius: 3px;
     padding: 10px 13px;
@@ -38,7 +36,6 @@
     font-size: 29px;
     color: white;
     background-color: black;
-    /* border: black; */
     border: 1px solid black;
     border-radius: 3px;
     padding: 10px 13px;

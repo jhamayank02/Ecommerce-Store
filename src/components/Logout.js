@@ -1,5 +1,5 @@
-import Modal from "./Modal";
-import SecondaryButton from "./SecondaryButton";
+import Modal from "../UI/Modal";
+import SecondaryButton from "../UI/SecondaryButton";
 
 const Logout = (props)=>{
     return <Modal onClick={props.hideLogoutModal}>

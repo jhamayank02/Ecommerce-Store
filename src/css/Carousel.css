@@ -1,8 +1,6 @@
 .carousel{
-    /* background-color: black; */
     height: 360px;
     width: 95%;
-    /* width: 1330px; */
     margin: auto;
     margin-top: 10px;
     position: relative;
@@ -14,7 +12,6 @@
     background-color: black;
     height: 990px;
     width: 1270px;
-    /* margin: auto; */
     margin-top: 10px;
     position: absolute;
     top: 0;
@@ -23,12 +20,9 @@
 }
 
 .carousel #c1{
-    /* background-color: black; */
     display: block;
     height: 100%;
     width: 100%;
-    /* display: block;
-    transition: all linear 0.3s; */
     background-image: url('../assets/images/c1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -36,12 +30,9 @@
 }
 
 .carousel #c2{
-    /* background-color: black; */
     display: none;
     height: 100%;
     width: 100%;
-    /* display: block;
-    transition: all linear 0.3s; */
     background-image: url('../assets/images/c2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -49,12 +40,9 @@
 }
 
 .carousel #c3{
-    /* background-color: black; */
     display: none;
     height: 100%;
     width: 100%;
-    /* display: block;
-    transition: all linear 0.3s; */
     background-image: url('../assets/images/c3.jpg');
     background-size: cover;
     background-repeat: no-repeat;

@@ -1,5 +1,4 @@
-import './CategoryCard.css';
-import ProductPage from './ProductPage';
+import './css/CategoryCard.css';
 import { useNavigate } from "react-router-dom";
 
 function CategoryCard(props) {

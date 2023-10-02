@@ -1,6 +1,5 @@
 import '../css/Cart.css';
 import Modal from '../UI/Modal';
-// import img from '../assets/images/img1.jpg';
 import PrimaryButton from '../UI/PrimaryButton';
 import SecondaryButton from '../UI/SecondaryButton';
 import { useContext } from 'react';
@@ -10,7 +9,6 @@ const Cart = (props)=>{
 
     const ctx = useContext(CartContext);
     const cart_items = ctx.items;
-    console.log(ctx.total_amount)
 
     const trimTitle = (title)=>{
         return title.length > 50 ? title.substring(0,50) + '...' : title;
@@ -25,7 +23,7 @@ const Cart = (props)=>{
 
             {cart_items.length > 0 && <div className='cart-items'>
                 {cart_items.map((item)=>{
-                    return <li>
+                    return <li key={item.id}>
                     <div className='row'>
                         <div className='product-name'>{trimTitle(item.product_name)}</div>
                         <div className='discounted-price'>₹{item.discounted_price}</div>
