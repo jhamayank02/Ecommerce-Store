@@ -37,6 +37,10 @@
     cursor: pointer;
 }
 
+.footer .highlight{
+    color: red;
+}
+
 @media screen and (max-width: 1000px){
     .footer .section:first-child{
         display: none;

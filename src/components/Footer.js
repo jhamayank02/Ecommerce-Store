@@ -29,6 +29,9 @@ const Footer = ()=>{
             <div className="section">
                 MCart || Some rights reserved &copy; 2023-2024
             </div>
+            <div className="section highlight">
+                All the data and images belong to their respective owners.
+            </div>
 
         </div>
     );
